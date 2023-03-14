@@ -35,6 +35,8 @@ models:
   superstore_dw:
     # Config indicated by + and applies to all files under models/example/
     +materialized: table
+    staging:
+      +schema: staging
 
 seeds:
   +schema: staging

@@ -7,6 +7,8 @@ sources:
     tables:
      - name: t_employee
      - name: t_region
+     - name: t_customer
+     - name: t_segment
 
 models:
   - name: stg_employee
